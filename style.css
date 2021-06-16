@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #ECEDF1FF;
+}
+
+.box{
+	width:450px;
+	height: 530px;
+	border-top: 5px solid #B04D4FFF;
+	background: white;
+	box-shadow: 0 0 4px grey;
+}
+
+.box h1{
+	padding: 20px;
+	text-align: center;
+	color: #35434EFF;
+	font-weight: 600;
+}
+
+.box label{
+	margin-left: 50px;
+	font-size: 13px;
+	color: grey;
+}
+
+.box input{
+	display: block;
+	margin: auto;
+	width: 80%;
+	border-top:none;
+	border-left:none;
+	outline: 0;
+	border-right:none;
+	border-top:none;
+	border-bottom: 1px solid grey;
+	padding: 3px;
+}
+
+
+input[type='time'],input[type='date']{
+	padding-top: 15px;
+}
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat;
+  background-size: 18px;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+[type="time"] {
+  background:#fff url(https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/alarm_clock_timepiece_timer-2-256.png)  97% 50% no-repeat;
+  background-size:18px;
+}
+[type="time"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="time"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+
+.box input:last-child{
+	padding-top: 60px;
+}
+
+
+
+.box button{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	padding: 14px 35px;
+	background: #C41617FF;
+	border-radius: 5px;
+	color: #fff;
+	border:1px solid;
+	text-transform: uppercase;
+}
+
+
+#input5{
+	padding-top:40px;
+}
